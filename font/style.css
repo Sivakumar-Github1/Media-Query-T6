@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+@media screen and (min-width < 600px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (width >= 500px) {
+    h1{
+        font-size: 10rem;
+    }
+}
+@media screen and (width >= 800px) {
+    h1{
+        font-size: 20rem;
+    }
+}
